@@ -70,3 +70,4 @@ def get_user():
         return jsonify({"error": "User not found"}), 404
     
     return user_schema.dump(user), 200
+

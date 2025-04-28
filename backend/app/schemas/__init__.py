@@ -1,1 +1,9 @@
 from app.schemas.user_schema import user_schema, users_schema
+from app.schemas.patient_schema import patient_schema, patients_schema
+from app.schemas.equipment_schema import equipment_schema, equipments_schema
+from app.schemas.intervention_schema import intervention_schema, interventions_schema
+from app.schemas.medical_record_schema import medical_record_schema, medical_records_schema
+from app.schemas.insurance_schema import insurance_schema, insurances_schema, patient_insurance_schema, patient_insurances_schema
+from app.schemas.invoice_schema import invoice_schema, invoices_schema, invoice_item_schema, invoice_items_schema
+from app.schemas.service_schema import service_schema, services_schema, service_intervention_schema, service_interventions_schema
+from app.schemas.equipment_rental_schema import equipment_rental_schema, equipment_rentals_schema
